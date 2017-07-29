@@ -1,0 +1,11 @@
+  <md-content>
+
+    <md-button layout="row" style="width:400px" class="md-raised md-default">{{calc}}</md-button>
+    <md-button layout="row" style="width:400px" class="md-raised md-default">{{result}}</md-button>
+    <div layout="row" ng-repeat="row in chars track by $index">
+      <md-button ng-click="pressed(c)" md-col-md="10" class="md-raised md-default" ng-repeat="c in row.col track by $index">
+      {{c}}
+      </md-button>
+    </div>
+  </md-content>
+

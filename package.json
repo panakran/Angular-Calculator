@@ -1,0 +1,27 @@
+{
+  "name": "ngcalculator",
+  "version": "0.1.0",
+  "description": "an angular calculator directive based on angularjs material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank for now"
+  },
+  "keywords": [
+    "\\"
+  ],
+  "author": "panakra",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
