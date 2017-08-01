@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+body{
+    background-color: #444;
+    height: auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+.cardCalc md-card {
+    min-height: 250px;
+}
+button.md-raised {
+    margin : 0;
+    border-radius: 0;
+    min-height: 75px;
+    font-size: 2rem;
+}
+md-card-header {
+    min-height: 9rem;
+}
